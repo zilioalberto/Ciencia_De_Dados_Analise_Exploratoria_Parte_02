@@ -43,7 +43,7 @@ Responder à pergunta: **“Quais variáveis parecem ser as mais promissoras par
 – A variabilidade de preços difere muito entre fabricantes; alguns têm faixas bem amplas (luxo + modelos básicos).  
 – Entre os tipos de carroceria, **convertible** e **hardtop** tendem a ter preços medianos mais altos, enquanto **hatchback** e **sedan** concentram-se em preços mais baixos.  
 – Essas categorias podem ajudar o modelo a capturar efeitos de marca e estilo.  
-```
+
 
 ## 5️⃣ Visão Geral com Heatmap
 
@@ -52,9 +52,8 @@ Responder à pergunta: **“Quais variáveis parecem ser as mais promissoras par
 – As variáveis mais correlacionadas positivamente com `price` são: **engine-size**, **curb-weight**, **horsepower** e **wheel-base**.  
 – `highway-mpg` e `city-mpg` têm correlação negativa moderada com `price`.  
 – Há correlação alta entre `city-mpg` e `highway-mpg` (ambas consumo), o que pode indicar multicolinearidade se usadas juntas.  
-```
 
----
+
 
 ## 6️⃣ Conclusão
 
@@ -76,4 +75,4 @@ Responder à pergunta: **“Quais variáveis parecem ser as mais promissoras par
 **Justificativas:**
 – São as variáveis com correlação mais alta (positiva ou negativa) com o preço, confirmadas pelos scatterplots e pelo heatmap.  
 – Capturam tanto atributos técnicos do veículo (motor, peso, consumo) quanto aspectos de marca que influenciam valor de mercado.  
-```
+
