@@ -1,0 +1,2 @@
+# Ciencia_De_Dados_Analise_Exploratoria_Parte_02
+Análise Exploratória para Modelagem
